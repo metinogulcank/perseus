@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+}
+body{
+    background-color: #000;
+    height: 100vh;
+}
+.nav{
+    height: 36px;
+    width: 100%;
+    padding: 48px 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.logo{
+    font-size: 16px;
+    color: #fff;
+}
+.nav-links{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 32px;
+    color: #fff;
+    
+}
+.nav-link{
+    font-size: 16px;
+    border-bottom: none;
+    padding: 3px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 
+        0 0 5px #0271e1,
+        0 0 10px #0271e1,
+        0 0 20px #0271e1,
+        0 0 40px #0271e1,
+        0 0 80px #0271e1;
+}
+.contact-button{
+    height: 36px;
+    width: 120px;
+    border: none;
+    background: #0271e1;
+    color: white;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 0 5px #0271e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-button:hover{
+    box-shadow: 0 0 16px #0271e1;
+}
+.body-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.body-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 96px;
+    gap: 20px;
+}
+.image-container{
+    width: 50%;
+}
+.image-container img{
+    width: 100%;
+    transform: scaleX(-1);
+}
+.text-container{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+    gap: 32px;
+}
+.primary-text{
+    font-size: 48px;
+    font-weight: 600;
+    
+}
+.secondary-text{
+    font-size: 20px;
+    font-weight: 400;
+}
+.text-container .contact-button{
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+}
+.footer-container{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000c2e;
+    position: relative;
+    bottom: 0;
+}
+.footer-item{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px;
+}
+.footer-item i{
+    font-size: 36px;
+    text-align: center;
+    color:#0271e1;
+}
+.footer-item .footer-header-text{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+.footer-item .footer-sub-text{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
